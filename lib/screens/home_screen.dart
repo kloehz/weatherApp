@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:weather_app/widgets/carousel.dart';
 import 'package:weather_app/widgets/custom_appbar.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -17,7 +18,7 @@ class HomeScreen extends StatelessWidget {
       ),
       drawer: const CustomAppBar(),
       body: const Center(
-        child: Text('Kloehz'),
+        child: Carousel()
       ),
     );
   }
